@@ -188,7 +188,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-blue text-white"
+                    className="bg-gray-900 border-github-border focus:border-github-blue text-white placeholder:text-gray-400"
                     placeholder="Your name"
                   />
                 </div>
@@ -203,7 +203,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-blue text-white"
+                    className="bg-gray-900 border-github-border focus:border-github-blue text-white placeholder:text-gray-400"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -218,7 +218,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-blue text-white"
+                    className="bg-gray-900 border-github-border focus:border-github-blue text-white placeholder:text-gray-400"
                     placeholder="Project collaboration"
                   />
                 </div>
@@ -233,7 +233,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-blue resize-none text-white"
+                    className="bg-gray-900 border-github-border focus:border-github-blue resize-none text-white placeholder:text-gray-400"
                     placeholder="Tell me about your project..."
                   />
                 </div>
