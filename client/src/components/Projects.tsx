@@ -50,6 +50,16 @@ export default function Projects() {
     },
     {
       id: 5,
+      title: "TodoBuddy.ai - AI TODO Aggregator",
+      description: "Currently building an intelligent TODO aggregator using WhatsApp APIs for correlation, vector databases for semantic search, and OpenAI for context classification and natural communication.",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      technologies: ["WhatsApp API", "OpenAI", "Vector DB", "Semantic Search"],
+      categories: ["ai", "fullstack"],
+      githubUrl: "https://github.com/jithendranath",
+      liveUrl: "#",
+    },
+    {
+      id: 6,
       title: "CultureCi - AI Community App",
       description: "Built community-based app with content classification using OpenAI and DeepSeek. Used FlutterFlow for UI and PostgreSQL geography functions for distance correlation.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
@@ -59,7 +69,7 @@ export default function Projects() {
       liveUrl: "#",
     },
     {
-      id: 6,
+      id: 7,
       title: "ClickStream Analytics Application",
       description: "Developed analytics application to track user interactions and generate insights. Used MongoDB for event tracking and PIG Latin for data processing workflows.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
