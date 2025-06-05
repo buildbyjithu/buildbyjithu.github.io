@@ -29,6 +29,7 @@ export default function Navigation() {
     { id: "achievements", label: "Impact" },
     { id: "projects", label: "Projects" },
     { id: "skills", label: "Skills" },
+    { id: "testimonials", label: "Reviews" },
     { id: "contact", label: "Contact" },
   ];
 
