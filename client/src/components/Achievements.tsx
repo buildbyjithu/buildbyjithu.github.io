@@ -100,7 +100,7 @@ export default function Achievements() {
         {/* Impact Summary */}
         <div className="mt-16 text-center">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-semibold mb-6 github-green">Proven Track Record</h3>
+            <h3 className="text-2xl font-semibold mb-6 github-blue">Proven Track Record</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="space-y-2">
                 <div className="text-xl font-bold">Early-Stage Startup Expert</div>

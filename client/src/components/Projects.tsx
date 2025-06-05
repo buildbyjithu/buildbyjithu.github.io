@@ -101,11 +101,11 @@ export default function Projects() {
       "MongoDB": "bg-purple-600/20 text-purple-400",
       "TypeScript": "bg-yellow-600/20 text-yellow-400",
       "Socket.io": "bg-red-600/20 text-red-400",
-      "Vue.js": "bg-github-green/20 text-github-green",
+      "Vue.js": "bg-github-blue/20 text-github-blue",
       "D3.js": "bg-orange-600/20 text-orange-400",
-      "React Native": "bg-github-green/20 text-github-green",
+      "React Native": "bg-github-blue/20 text-github-blue",
       "Express.js": "bg-github-blue/20 text-github-blue",
-      "PostgreSQL": "bg-green-600/20 text-green-400",
+      "PostgreSQL": "bg-blue-600/20 text-blue-400",
       "OpenWeather API": "bg-blue-600/20 text-blue-400",
       "Redux": "bg-yellow-600/20 text-yellow-400",
       "Chart.js": "bg-purple-600/20 text-purple-400",
@@ -133,7 +133,7 @@ export default function Projects() {
                 variant={activeFilter === filter.id ? "default" : "ghost"}
                 className={`px-6 py-2 ${
                   activeFilter === filter.id 
-                    ? "bg-github-green text-white" 
+                    ? "bg-github-blue text-white" 
                     : "hover:bg-github-border github-muted"
                 }`}
               >

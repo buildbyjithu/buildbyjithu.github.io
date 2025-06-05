@@ -4,7 +4,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      color: "text-github-green",
+      color: "text-github-blue",
       skills: [
         { name: "Node.js / JavaScript", icon: "🟨" },
         { name: "Python / Golang", icon: "🐍" },
