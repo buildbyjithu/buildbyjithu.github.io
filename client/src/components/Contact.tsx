@@ -159,7 +159,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-green"
+                    className="bg-github-dark border-github-border focus:border-github-blue"
                     placeholder="Your name"
                   />
                 </div>
@@ -174,7 +174,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-green"
+                    className="bg-github-dark border-github-border focus:border-github-blue"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -189,7 +189,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-green"
+                    className="bg-github-dark border-github-border focus:border-github-blue"
                     placeholder="Project collaboration"
                   />
                 </div>
@@ -204,14 +204,14 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleInputChange}
                     required
-                    className="bg-github-dark border-github-border focus:border-github-green resize-none"
+                    className="bg-github-dark border-github-border focus:border-github-blue resize-none"
                     placeholder="Tell me about your project..."
                   />
                 </div>
                 <Button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full bg-github-green hover:bg-green-600 text-white"
+                  className="w-full bg-github-blue hover:bg-blue-600 text-white"
                 >
                   {isSubmitting ? (
                     "Sending..."
