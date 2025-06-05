@@ -29,31 +29,33 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
-            [Your professional summary - years of experience, areas of expertise, what drives you]
+            Software Architect with 11+ years of experience building analytics, endpoint and cloud security solutions
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              [First paragraph about your background - where you're based, your specialty, 
-              how you got started in technology, what drives your passion for development]
+              I'm a Software Architect based in Fremont, CA, specializing in full-stack development and cloud security solutions. 
+              My journey began with a passion for building scalable systems and has led me to play key roles as an early engineer 
+              in multiple startups, setting up end-to-end software development pipelines from coding to deployment.
             </p>
             <p className="text-lg leading-relaxed">
-              [Second paragraph about your current focus - technologies you work with, 
-              types of projects you enjoy, what you do outside of coding]
+              I focus on designing reusable components and middleware layers that handle millions of requests efficiently. 
+              Currently working on AI applications and contributing to open-source projects. When not coding, I'm mentoring 
+              developers and exploring the latest in cloud security and graph databases.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
               <Card className="text-center p-4 bg-github-dark">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">[X+]</div>
+                  <div className="text-3xl font-bold github-green">11+</div>
                   <div className="github-muted">Years Experience</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-4 bg-github-dark">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">[X+]</div>
-                  <div className="github-muted">Projects Completed</div>
+                  <div className="text-3xl font-bold github-green">1269+</div>
+                  <div className="github-muted">APIs Built</div>
                 </CardContent>
               </Card>
             </div>

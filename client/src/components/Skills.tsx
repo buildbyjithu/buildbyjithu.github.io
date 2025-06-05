@@ -3,43 +3,43 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Programming Languages",
       color: "text-github-green",
       skills: [
-        { name: "React / Next.js", icon: "⚛️" },
-        { name: "Vue.js / Nuxt.js", icon: "💚" },
-        { name: "JavaScript / TypeScript", icon: "🟨" },
-        { name: "CSS / Tailwind CSS", icon: "🎨" },
+        { name: "Node.js / JavaScript", icon: "🟨" },
+        { name: "Python / Golang", icon: "🐍" },
+        { name: "Java (Sun Certified)", icon: "☕" },
+        { name: "TypeScript", icon: "📘" },
       ],
     },
     {
-      title: "Backend",
+      title: "Cloud & Security",
       color: "text-github-blue",
       skills: [
-        { name: "Node.js / Express", icon: "🟢" },
-        { name: "Python / Django", icon: "🐍" },
-        { name: "PostgreSQL / MongoDB", icon: "🗄️" },
-        { name: "REST / GraphQL APIs", icon: "🔗" },
+        { name: "AWS / GCP / Azure", icon: "☁️" },
+        { name: "Cloud Security", icon: "🔒" },
+        { name: "MITRE ATT&CK", icon: "🛡️" },
+        { name: "Attack Path Analysis", icon: "🔍" },
       ],
     },
     {
-      title: "Mobile & Tools",
+      title: "Databases & Graph",
       color: "text-purple-400",
       skills: [
-        { name: "React Native", icon: "📱" },
-        { name: "Flutter", icon: "🦋" },
-        { name: "Figma / Adobe XD", icon: "🎨" },
-        { name: "PWA Development", icon: "📲" },
+        { name: "PostgreSQL / MongoDB", icon: "🗄️" },
+        { name: "Neo4j / Memgraph", icon: "🕸️" },
+        { name: "Redis / S3", icon: "💾" },
+        { name: "Amazon Redshift", icon: "📊" },
       ],
     },
     {
-      title: "DevOps & Cloud",
+      title: "Frameworks & AI",
       color: "text-orange-400",
       skills: [
-        { name: "AWS / Azure", icon: "☁️" },
+        { name: "React / Angular / Flutter", icon: "⚛️" },
+        { name: "MEAN / GraphQL / REST", icon: "🔗" },
+        { name: "OpenAI Integration", icon: "🤖" },
         { name: "Docker / Kubernetes", icon: "🐳" },
-        { name: "Git / GitHub Actions", icon: "🔧" },
-        { name: "CI/CD Pipelines", icon: "♾️" },
       ],
     },
   ];

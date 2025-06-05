@@ -15,14 +15,15 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-10 lg:mb-0 animate-slide-up">
             <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-              Hi, I'm <span className="github-green">[Your Name]</span>
+              Hi, I'm <span className="github-green">Jithendranath Gupta Yenduri</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl github-muted mb-8">
-              [Your Role/Title]
+              Software Architect
             </h2>
             <p className="text-lg github-muted mb-8 max-w-lg">
-              [Your personal description - what you do, what you're passionate about, 
-              and what makes you unique as a developer]
+              Experienced Software Architect with a decade of expertise in full-stack development, 
+              building scalable applications across frontend and backend. Early engineer in multiple 
+              startups with 1269+ APIs built and 80+ services created from scratch.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -41,7 +42,7 @@ export default function Hero() {
             </div>
             <div className="flex space-x-6 mt-8">
               <a 
-                href="[Your GitHub URL]" 
+                href="https://github.com/jithendranath" 
                 className="github-muted hover:text-github-green transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,7 +50,7 @@ export default function Hero() {
                 <Github size={32} />
               </a>
               <a 
-                href="[Your LinkedIn URL]" 
+                href="https://www.linkedin.com/in/jithendranath" 
                 className="github-muted hover:text-github-blue transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -57,7 +58,7 @@ export default function Hero() {
                 <Linkedin size={32} />
               </a>
               <a 
-                href="[Your Twitter URL]" 
+                href="https://twitter.com/jithendranath" 
                 className="github-muted hover:text-blue-400 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +66,7 @@ export default function Hero() {
                 <Twitter size={32} />
               </a>
               <a 
-                href="mailto:[Your Email]" 
+                href="mailto:guptaa.pavan@gmail.com" 
                 className="github-muted hover:text-red-400 transition-colors duration-200"
               >
                 <Mail size={32} />

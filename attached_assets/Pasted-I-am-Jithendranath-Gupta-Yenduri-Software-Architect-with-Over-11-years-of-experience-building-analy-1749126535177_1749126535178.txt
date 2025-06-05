@@ -1,0 +1,75 @@
+I am Jithendranath Gupta Yenduri, Software Architect with Over 11 years of experience building analytics, end point and cloud security solutions
+
+Software Architect | Full Stack Developer | Cloud Security Expert | Node.js | AWS | OpenAI | Early-Stage Startups | High Performer | Scaling from Scratch to Enterprise | API | 0 to 1 | Neo4j | Go to Person | Customer Satisfaction Driven
+
+
+1. I have built around 1269 API over my career
+2. I have built atleast 80 services from scratch 
+3. Mentored atleast 10 people
+4. Worked on atleast 40 + POC
+5. Made atleast 5000 commits 
+
+
+Open source contribution
+
+1. EPSS Chrome Plugin
+
+2. S3 Chrome Plugin 
+
+3. Fixed issues in Passport SAML auth Module of Node.js
+
+4. Fixed some exploit casess in Pacu
+
+
+AI Applications Agents 
+
+    Still a Neophyte, but builing as I learn 
+
+1. Built a community based app called CultureCi. Did content classification using Open AI and DeepSeek
+
+    a. Built UI of the app using NO-CODE editor flutterflow
+    b. Use Geograhy based functionality of Postgres to find distance correlation
+
+2. Currently Building a TODO's aggregator called todobuddy.ai
+
+      a. Using Whatspp apis for correlation 
+      b. Vector databases for semetatic search 
+      c. Open AI for context classifation and naturalizing the communication 
+
+
+Key Points about me
+
+1. Worked in multiple early stage startups 
+2. Worked deep in applications, building relationships in aws cloud and bring them to graph db and the do CloudSecurity, Exposure of resources, Attack Path  and findings Blast Radius
+3. Fast learners of new technologies 
+4. Sun ceritified Java developer 
+5. End to End product experience, From Authentication, Authorization, Data Collection, Middleware, Data Lake, Analytics/Insights to API
+6. Focused more on understanding customer requirements and build things than just following some Product Requeriremnt Docs.   
+
+7. Worked as research intern at IIT Bombay helping improved eductional schema of schema.org
+
+8. Played a crucial role application support for MITRE ATT&CK Evaluations
+
+
+Experienced with following
+
+1. Programming with : Node.js, javascript, Java, Angular Js, Flutter, Backbone.js,  Python, GoLang
+2. Cloud Platforms : AWS, GCP
+3. Frameworks: MEAN, GraphQL, REST
+4. Databases : Postgresql, mysql, Redhshit, MongoDB, Memgraph, Neo4j, Redis
+5. Tools : Git, Docker, Jenkins, Kubernetes
+
+
+
+Publications 
+
+Science Direct
+ 
+ IEEE Explore
+
+
+Projects 
+
+
+
+Linked In reviews
