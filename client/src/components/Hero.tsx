@@ -1,6 +1,7 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
+import resumePdf from "@/assets/Jithendranath_Gupta_Yenduri_Resume.pdf";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -59,13 +60,14 @@ export default function Hero() {
                 variant="outline"
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '/src/assets/NewJithuresume_1749136814065.pdf';
+                  link.href = resumePdf;
                   link.download = 'Jithendranath_Gupta_Yenduri_Resume.pdf';
                   link.click();
                 }}
                 className="border-gray-600 text-gray-400 hover:bg-gray-600 hover:text-white px-8 py-3"
               >
-                Download Resume
+                <Download className="mr-2" size={16} />
+                Resume
               </Button>
             </div>
             <div className="flex space-x-6 mt-8">

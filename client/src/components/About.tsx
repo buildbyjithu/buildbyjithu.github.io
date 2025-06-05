@@ -100,16 +100,31 @@ export default function About() {
             </div>
             
             <div className="mt-8 pt-8 border-t border-github-border">
-              <h4 className="text-xl font-semibold mb-4 github-blue">Open Source Contributions</h4>
+              <h4 className="text-xl font-semibold mb-4 github-blue">Open Source Contributions & Apps</h4>
               <div className="space-y-3">
                 <div className="github-muted">
-                  • <strong>EPSS Score Chrome Plugin</strong> - Real-time exploit prediction scoring for security decisions
+                  • <strong><a href="https://chromewebstore.google.com/detail/exploit-prediction-scorin/ionhidnfpieflplgegiiicmdjmijnajl?hl=en-US" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">EPSS Score Chrome Plugin</a></strong> - Real-time exploit prediction scoring for security decisions
+                </div>
+                <div className="github-muted">
+                  • <strong><a href="https://apps.apple.com/us/app/cultureci/id6740692368" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">CultureCI App</a></strong> - iOS application for cultural intelligence and development
                 </div>
                 <div className="github-muted">
                   • <strong>Passport SAML</strong> - Enhanced SAML authentication for Node.js applications
                 </div>
                 <div className="github-muted">
                   • <strong>Pacu AWS Exploitation Framework</strong> - Fixed critical security testing issues
+                </div>
+              </div>
+              
+              <div className="mt-8 pt-8 border-t border-github-border">
+                <h4 className="text-xl font-semibold mb-4 github-blue">Research Publications</h4>
+                <div className="space-y-3">
+                  <div className="github-muted">
+                    • <strong><a href="https://www.sciencedirect.com/science/article/abs/pii/S2214212616303118" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">Identifying phishing websites and its target</a></strong> - ScienceDirect
+                  </div>
+                  <div className="github-muted">
+                    • <strong><a href="https://ieeexplore.ieee.org/document/7050816" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">A study to assess and enhance educational specific search on web for school children</a></strong> - IEEE Xplore
+                  </div>
                 </div>
               </div>
             </div>
