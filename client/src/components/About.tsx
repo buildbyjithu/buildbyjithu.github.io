@@ -24,10 +24,10 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-github-border/20">
+    <section id="about" className="py-20 bg-github-border/20" itemScope itemType="https://schema.org/AboutPage">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4" itemProp="name">About Me</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
             Software Architect with 11+ years of experience building analytics, endpoint and cloud security solutions
           </p>

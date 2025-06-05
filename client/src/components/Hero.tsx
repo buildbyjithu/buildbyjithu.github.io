@@ -12,20 +12,20 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-20" itemScope itemType="https://schema.org/Person">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-10 lg:mb-0 animate-slide-up">
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-              Hi, I'm <span className="github-blue">Jithendranath Gupta Yenduri</span>
+            <h1 className="text-5xl lg:text-7xl font-bold mb-6" itemProp="name">
+              Hi, I'm <span className="github-blue" itemProp="givenName">Jithendranath Gupta Yenduri</span>
             </h1>
-            <h2 className="text-2xl lg:text-3xl github-muted mb-8">
-              Software Architect
+            <h2 className="text-2xl lg:text-3xl github-muted mb-8" itemProp="jobTitle">
+              Software Architect & Full-Stack Developer
             </h2>
-            <p className="text-lg github-muted mb-6 max-w-lg">
-              Seasoned Software Architect with 10+ years of full-stack expertise, specializing in scalable 
+            <p className="text-lg github-muted mb-6 max-w-lg" itemProp="description">
+              Seasoned Software Architect with 11+ years of full-stack expertise, specializing in scalable 
               enterprise applications and cloud security. Proven 0-1 builder across multiple startups, 
-              transforming ideas into production systems with a passion for emerging AI technologies.
+              transforming ideas into production systems with a passion for emerging AI technologies and modern development tools.
             </p>
             
             {/* Key Stats Highlight */}
