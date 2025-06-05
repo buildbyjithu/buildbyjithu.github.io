@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Download, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
 import resumePdf from "@/assets/Jithendranath_Gupta_Yenduri_Resume.pdf";
@@ -49,6 +49,16 @@ export default function Hero() {
                 className="bg-github-blue hover:bg-blue-600 text-white px-8 py-3"
               >
                 View My Work
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => {
+                  window.open('https://calendly.com/guptaa-pavan/30min', '_blank');
+                }}
+                className="border-green-600 text-green-400 hover:bg-green-600 hover:text-white px-8 py-3"
+              >
+                <Calendar className="mr-2" size={16} />
+                Schedule Call
               </Button>
               <Button
                 variant="outline"
