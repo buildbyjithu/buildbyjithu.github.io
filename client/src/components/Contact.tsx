@@ -146,13 +146,7 @@ export default function Contact() {
               ))}
             </div>
 
-            <div className="pt-8">
-              <h4 className="font-semibold mb-4">Current Status</h4>
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-github-green rounded-full animate-pulse"></div>
-                <span className="github-muted">Available for new opportunities</span>
-              </div>
-            </div>
+
           </div>
 
           <Card className="bg-github-border/30">
