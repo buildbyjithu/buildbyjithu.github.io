@@ -76,6 +76,21 @@ export default function About() {
                 </div>
               ))}
             </div>
+            
+            <div className="mt-8 pt-8 border-t border-github-border">
+              <h4 className="text-xl font-semibold mb-4 github-green">Open Source Contributions</h4>
+              <div className="space-y-3">
+                <div className="github-muted">
+                  • <strong>EPSS Score Chrome Plugin</strong> - Real-time exploit prediction scoring for security decisions
+                </div>
+                <div className="github-muted">
+                  • <strong>Passport SAML</strong> - Enhanced SAML authentication for Node.js applications
+                </div>
+                <div className="github-muted">
+                  • <strong>Pacu AWS Exploitation Framework</strong> - Fixed critical security testing issues
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -4,22 +4,22 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Github size={24} />,
-      href: "[Your GitHub URL]",
+      href: "https://github.com/jithendranath",
       hoverColor: "hover:text-github-green",
     },
     {
       icon: <Linkedin size={24} />,
-      href: "[Your LinkedIn URL]",
+      href: "https://www.linkedin.com/in/jithendranath",
       hoverColor: "hover:text-github-blue",
     },
     {
       icon: <Twitter size={24} />,
-      href: "[Your Twitter URL]",
+      href: "https://twitter.com/jithendranath",
       hoverColor: "hover:text-blue-400",
     },
     {
       icon: <Mail size={24} />,
-      href: "mailto:[your.email@example.com]",
+      href: "mailto:guptaa.pavan@gmail.com",
       hoverColor: "hover:text-red-400",
     },
   ];
@@ -31,9 +31,9 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <div className="text-2xl font-bold github-green mb-2 flex items-center">
               <Github className="mr-2" size={24} />
-              [Your Name]
+              Jithendranath Gupta Yenduri
             </div>
-            <p className="github-muted">[Your Professional Title & Description]</p>
+            <p className="github-muted">Software Architect & Cloud Security Expert</p>
           </div>
           
           <div className="flex space-x-6">
@@ -53,7 +53,7 @@ export default function Footer() {
         
         <div className="border-t border-github-border mt-8 pt-8 text-center">
           <p className="github-muted flex items-center justify-center">
-            © 2024 [Your Name]. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
+            © 2024 Jithendranath Gupta Yenduri. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
           </p>
         </div>
       </div>
