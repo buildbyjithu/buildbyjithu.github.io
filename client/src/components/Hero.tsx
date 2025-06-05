@@ -20,11 +20,26 @@ export default function Hero() {
             <h2 className="text-2xl lg:text-3xl github-muted mb-8">
               Software Architect
             </h2>
-            <p className="text-lg github-muted mb-8 max-w-lg">
+            <p className="text-lg github-muted mb-6 max-w-lg">
               Experienced Software Architect with a decade of expertise in full-stack development, 
-              building scalable applications across frontend and backend. Early engineer in multiple 
-              startups with 1269+ APIs built and 80+ services created from scratch.
+              building scalable applications across frontend and backend. Early engineer in multiple startups.
             </p>
+            
+            {/* Key Stats Highlight */}
+            <div className="grid grid-cols-3 gap-4 mb-8 max-w-lg">
+              <div className="text-center bg-github-border/30 rounded-lg p-3">
+                <div className="text-2xl font-bold github-green">1269+</div>
+                <div className="text-sm github-muted">APIs Built</div>
+              </div>
+              <div className="text-center bg-github-border/30 rounded-lg p-3">
+                <div className="text-2xl font-bold github-green">5000+</div>
+                <div className="text-sm github-muted">Commits Made</div>
+              </div>
+              <div className="text-center bg-github-border/30 rounded-lg p-3">
+                <div className="text-2xl font-bold github-green">80+</div>
+                <div className="text-sm github-muted">Services Built</div>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 onClick={() => scrollToSection("projects")}

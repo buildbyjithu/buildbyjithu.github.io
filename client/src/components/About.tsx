@@ -46,16 +46,38 @@ export default function About() {
               developers and exploring the latest in cloud security and graph databases.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
-              <Card className="text-center p-4 bg-github-dark">
+              <Card className="text-center p-4 bg-github-dark hover:bg-github-border/50 transition-colors">
                 <CardContent className="p-0">
                   <div className="text-3xl font-bold github-green">11+</div>
                   <div className="github-muted">Years Experience</div>
                 </CardContent>
               </Card>
-              <Card className="text-center p-4 bg-github-dark">
+              <Card className="text-center p-4 bg-github-dark hover:bg-github-border/50 transition-colors">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">1269+</div>
-                  <div className="github-muted">APIs Built</div>
+                  <div className="text-3xl font-bold github-green">10+</div>
+                  <div className="github-muted">People Mentored</div>
+                </CardContent>
+              </Card>
+            </div>
+            
+            {/* Additional Stats Grid */}
+            <div className="grid grid-cols-3 gap-3 mt-4">
+              <Card className="text-center p-3 bg-github-green/10 border-github-green/20">
+                <CardContent className="p-0">
+                  <div className="text-xl font-bold github-green">1269+</div>
+                  <div className="text-xs github-muted">APIs Built</div>
+                </CardContent>
+              </Card>
+              <Card className="text-center p-3 bg-github-blue/10 border-github-blue/20">
+                <CardContent className="p-0">
+                  <div className="text-xl font-bold github-blue">5000+</div>
+                  <div className="text-xs github-muted">Commits Made</div>
+                </CardContent>
+              </Card>
+              <Card className="text-center p-3 bg-purple-600/10 border-purple-600/20">
+                <CardContent className="p-0">
+                  <div className="text-xl font-bold text-purple-400">80+</div>
+                  <div className="text-xs github-muted">Services Built</div>
                 </CardContent>
               </Card>
             </div>
