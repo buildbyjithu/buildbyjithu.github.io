@@ -109,10 +109,10 @@ export default function About() {
                   • <strong><a href="https://apps.apple.com/us/app/cultureci/id6740692368" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">CultureCI App</a></strong> - iOS application for cultural intelligence and development
                 </div>
                 <div className="github-muted">
-                  • <strong>Passport SAML</strong> - Enhanced SAML authentication for Node.js applications
+                  • <strong><a href="https://github.com/node-saml/passport-saml" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">Passport SAML</a></strong> - Enhanced SAML authentication for Node.js applications
                 </div>
                 <div className="github-muted">
-                  • <strong>Pacu AWS Exploitation Framework</strong> - Fixed critical security testing issues
+                  • <strong><a href="https://github.com/RhinoSecurityLabs/pacu" target="_blank" rel="noopener noreferrer" className="hover:text-github-blue transition-colors">Pacu AWS Exploitation Framework</a></strong> - Fixed critical security testing issues
                 </div>
               </div>
               
