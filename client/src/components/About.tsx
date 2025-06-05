@@ -48,13 +48,13 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4 pt-6">
               <Card className="text-center p-4 bg-github-dark hover:bg-github-border/50 transition-colors">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">11+</div>
+                  <div className="text-3xl font-bold github-blue">11+</div>
                   <div className="github-muted">Years Experience</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-4 bg-github-dark hover:bg-github-border/50 transition-colors">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">10+</div>
+                  <div className="text-3xl font-bold github-blue">10+</div>
                   <div className="github-muted">People Mentored</div>
                 </CardContent>
               </Card>
@@ -62,9 +62,9 @@ export default function About() {
             
             {/* Additional Stats Grid */}
             <div className="grid grid-cols-3 gap-3 mt-4">
-              <Card className="text-center p-3 bg-github-green/10 border-github-green/20">
+              <Card className="text-center p-3 bg-github-blue/10 border-github-blue/20">
                 <CardContent className="p-0">
-                  <div className="text-xl font-bold github-green">1269+</div>
+                  <div className="text-xl font-bold github-blue">1269+</div>
                   <div className="text-xs github-muted">APIs Built</div>
                 </CardContent>
               </Card>
@@ -100,7 +100,7 @@ export default function About() {
             </div>
             
             <div className="mt-8 pt-8 border-t border-github-border">
-              <h4 className="text-xl font-semibold mb-4 github-green">Open Source Contributions</h4>
+              <h4 className="text-xl font-semibold mb-4 github-blue">Open Source Contributions</h4>
               <div className="space-y-3">
                 <div className="github-muted">
                   • <strong>EPSS Score Chrome Plugin</strong> - Real-time exploit prediction scoring for security decisions

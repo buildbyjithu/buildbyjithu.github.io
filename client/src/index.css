@@ -15,15 +15,15 @@
   --card-foreground: 213 31% 91%; /* #E6EDF3 */
   --border: 217 19% 18%; /* #21262D */
   --input: 217 19% 18%; /* #21262D */
-  --primary: 137 72% 36%; /* #238636 */
-  --primary-foreground: 144 61% 98%; /* #F6F8FA */
+  --primary: 212 92% 45%; /* #1F6FEB */
+  --primary-foreground: 210 11% 98%; /* #F6F8FA */
   --secondary: 217 10% 25%; /* #21262D */
   --secondary-foreground: 213 31% 91%; /* #E6EDF3 */
   --accent: 217 19% 18%; /* #21262D */
   --accent-foreground: 213 31% 91%; /* #E6EDF3 */
   --destructive: 0 84% 60%; /* #F85149 */
   --destructive-foreground: 213 31% 91%; /* #E6EDF3 */
-  --ring: 137 72% 36%; /* #238636 */
+  --ring: 212 92% 45%; /* #1F6FEB */
   --radius: 0.5rem;
   
   /* GitHub specific colors */
@@ -48,15 +48,15 @@
   --card-foreground: 213 31% 91%;
   --border: 217 19% 18%;
   --input: 217 19% 18%;
-  --primary: 137 72% 36%;
-  --primary-foreground: 144 61% 98%;
+  --primary: 212 92% 45%;
+  --primary-foreground: 210 11% 98%;
   --secondary: 217 10% 25%;
   --secondary-foreground: 213 31% 91%;
   --accent: 217 19% 18%;
   --accent-foreground: 213 31% 91%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 213 31% 91%;
-  --ring: 137 72% 36%;
+  --ring: 212 92% 45%;
 }
 
 @layer base {
