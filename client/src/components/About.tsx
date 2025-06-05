@@ -29,32 +29,30 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
-            Passionate developer with 5+ years of experience creating impactful digital solutions
+            [Your professional summary - years of experience, areas of expertise, what drives you]
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a Full Stack Developer based in San Francisco, specializing in creating exceptional 
-              digital experiences. My journey in technology started with a curiosity about how things work, 
-              which led me to pursue computer science and develop a passion for problem-solving through code.
+              [First paragraph about your background - where you're based, your specialty, 
+              how you got started in technology, what drives your passion for development]
             </p>
             <p className="text-lg leading-relaxed">
-              I enjoy working with modern technologies like React, Node.js, and cloud platforms to build 
-              scalable applications. When I'm not coding, you can find me contributing to open source 
-              projects, writing technical blogs, or exploring the latest in web development.
+              [Second paragraph about your current focus - technologies you work with, 
+              types of projects you enjoy, what you do outside of coding]
             </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
               <Card className="text-center p-4 bg-github-dark">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">5+</div>
+                  <div className="text-3xl font-bold github-green">[X+]</div>
                   <div className="github-muted">Years Experience</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-4 bg-github-dark">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold github-green">50+</div>
+                  <div className="text-3xl font-bold github-green">[X+]</div>
                   <div className="github-muted">Projects Completed</div>
                 </CardContent>
               </Card>

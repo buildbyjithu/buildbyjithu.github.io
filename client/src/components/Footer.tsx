@@ -4,22 +4,22 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Github size={24} />,
-      href: "https://github.com",
+      href: "[Your GitHub URL]",
       hoverColor: "hover:text-github-green",
     },
     {
       icon: <Linkedin size={24} />,
-      href: "https://linkedin.com",
+      href: "[Your LinkedIn URL]",
       hoverColor: "hover:text-github-blue",
     },
     {
       icon: <Twitter size={24} />,
-      href: "https://twitter.com",
+      href: "[Your Twitter URL]",
       hoverColor: "hover:text-blue-400",
     },
     {
       icon: <Mail size={24} />,
-      href: "mailto:alex@example.com",
+      href: "mailto:[your.email@example.com]",
       hoverColor: "hover:text-red-400",
     },
   ];
@@ -31,9 +31,9 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <div className="text-2xl font-bold github-green mb-2 flex items-center">
               <Github className="mr-2" size={24} />
-              Alex Johnson
+              [Your Name]
             </div>
-            <p className="github-muted">Full Stack Developer & Open Source Enthusiast</p>
+            <p className="github-muted">[Your Professional Title & Description]</p>
           </div>
           
           <div className="flex space-x-6">
