@@ -37,6 +37,13 @@
     <meta name="theme-color" content="#2563eb" />
     <meta name="msapplication-TileColor" content="#2563eb" />
     
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/profile-photo.jpg" as="image" />
+    <link rel="preload" href="/portfolio-structured-data.json" as="fetch" crossorigin="anonymous" />
+    
     <!-- Structured Data for Person -->
     <script type="application/ld+json">
     {
