@@ -1,5 +1,6 @@
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -91,8 +92,8 @@ export default function Hero() {
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative animate-float">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
-                alt="Alex Johnson - Full Stack Developer" 
+                src={profilePhoto} 
+                alt="Jithendranath Gupta Yenduri - Software Architect" 
                 className="rounded-full w-80 h-80 object-cover border-4 border-github-green shadow-2xl"
               />
               <div className="absolute -bottom-4 -right-4 bg-github-green text-white rounded-full w-16 h-16 flex items-center justify-center">
