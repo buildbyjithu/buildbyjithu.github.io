@@ -53,7 +53,7 @@ export default function Footer() {
         
         <div className="border-t border-github-border mt-8 pt-8 text-center">
           <p className="github-muted flex items-center justify-center">
-            © 2024 Alex Johnson. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
+            © 2024 [Your Name]. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
           </p>
         </div>
       </div>
