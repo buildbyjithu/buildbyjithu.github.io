@@ -42,6 +42,16 @@ export default function Skills() {
         { name: "Docker / Kubernetes", icon: "🐳" },
       ],
     },
+    {
+      title: "Development Tools",
+      color: "text-green-400",
+      skills: [
+        { name: "Git / Docker / Jenkins", icon: "🛠️" },
+        { name: "Windsurf / Replit", icon: "💻" },
+        { name: "Flutterflow", icon: "📱" },
+        { name: "AI Learning & Building", icon: "🔬" },
+      ],
+    },
   ];
 
   return (

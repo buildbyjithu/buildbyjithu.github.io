@@ -23,8 +23,9 @@ export default function Hero() {
               Software Architect
             </h2>
             <p className="text-lg github-muted mb-6 max-w-lg">
-              Experienced Software Architect with a decade of expertise in full-stack development, 
-              building scalable applications across frontend and backend. Early engineer in multiple startups.
+              Seasoned Software Architect with 10+ years of full-stack expertise, specializing in scalable 
+              enterprise applications and cloud security. Proven early-stage engineer across multiple startups, 
+              with a passion for emerging AI technologies and continuous learning.
             </p>
             
             {/* Key Stats Highlight */}
