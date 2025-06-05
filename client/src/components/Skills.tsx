@@ -55,10 +55,10 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-github-border/20">
+    <section id="skills" className="py-20 bg-github-border/20" itemScope itemType="https://schema.org/Person">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Skills & Technologies</h2>
+          <h2 className="text-4xl font-bold mb-4" itemProp="knowsAbout">Skills & Technologies</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
             Technologies and tools I use to bring ideas to life
           </p>

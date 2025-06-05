@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://portfolio.jithendranath.dev/#person",
+      "name": "Jithendranath Gupta Yenduri",
+      "alternateName": ["Jithu", "buildbyjithu"],
+      "description": "Software Architect with 11+ years of experience in full-stack development, cloud security, and scalable applications. Expert in Node.js, React, AWS, and startup engineering.",
+      "url": "https://portfolio.jithendranath.dev",
+      "image": "https://portfolio.jithendranath.dev/profile-photo.jpg",
+      "email": "guptaa.pavan@gmail.com",
+      "jobTitle": "Software Architect",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Software Architect",
+        "description": "Full-stack software architect specializing in scalable applications and cloud security",
+        "skills": [
+          "Software Architecture",
+          "Full-Stack Development", 
+          "Cloud Security",
+          "Node.js",
+          "React",
+          "AWS",
+          "Python",
+          "System Design",
+          "API Development",
+          "Graph Databases"
+        ]
+      },
+      "knowsAbout": [
+        "Software Architecture",
+        "Full-Stack Development",
+        "Cloud Security", 
+        "Node.js",
+        "React",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Python",
+        "TypeScript",
+        "PostgreSQL",
+        "MongoDB",
+        "Neo4j",
+        "Memgraph",
+        "Docker",
+        "Kubernetes",
+        "MITRE ATT&CK",
+        "Graph Analytics",
+        "System Design",
+        "API Development",
+        "Startup Engineering"
+      ],
+      "sameAs": [
+        "https://github.com/buildbyjithu",
+        "https://linkedin.com/in/jithendranath-gupta-yenduri",
+        "https://calendly.com/guptaa-pavan/30min"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance Consultant"
+      },
+      "nationality": "Indian",
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Computer Science Education"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://portfolio.jithendranath.dev/#website",
+      "url": "https://portfolio.jithendranath.dev",
+      "name": "Jithendranath Gupta Yenduri - Software Architect Portfolio",
+      "description": "Professional portfolio showcasing software architecture expertise, full-stack development projects, and cloud security solutions",
+      "author": {
+        "@id": "https://portfolio.jithendranath.dev/#person"
+      },
+      "inLanguage": "en-US",
+      "copyrightYear": "2024",
+      "mainEntity": {
+        "@id": "https://portfolio.jithendranath.dev/#person"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "CultureCI",
+      "description": "Culture assessment and improvement platform",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web Browser",
+      "author": {
+        "@id": "https://portfolio.jithendranath.dev/#person"
+      },
+      "programmingLanguage": ["Node.js", "React", "PostgreSQL"],
+      "url": "https://cultureci.com"
+    },
+    {
+      "@type": "SoftwareApplication", 
+      "name": "EPSS Chrome Extension",
+      "description": "Chrome extension for enhanced security scoring",
+      "applicationCategory": "BrowserExtension",
+      "operatingSystem": "Chrome",
+      "author": {
+        "@id": "https://portfolio.jithendranath.dev/#person"
+      },
+      "programmingLanguage": ["JavaScript", "Chrome APIs"]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Research Publications",
+      "description": "Published research papers in software engineering and security",
+      "author": {
+        "@id": "https://portfolio.jithendranath.dev/#person"
+      },
+      "datePublished": "2024",
+      "inLanguage": "en-US"
+    }
+  ]
+}

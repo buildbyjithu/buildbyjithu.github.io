@@ -114,10 +114,10 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20" itemScope itemType="https://schema.org/CreativeWork">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
+          <h2 className="text-4xl font-bold mb-4" itemProp="name">Featured Projects</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
             A collection of projects that showcase my skills and passion for development
           </p>
