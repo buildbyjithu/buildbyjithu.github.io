@@ -43,9 +43,8 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-bold github-green flex items-center">
-            <Github className="mr-2" size={24} />
-            Portfolio
+          <div className="text-xl font-bold github-blue flex items-center">
+            {/* Logo removed as requested */}
           </div>
 
           {/* Desktop Navigation */}
@@ -54,7 +53,7 @@ export default function Navigation() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="hover:text-github-green transition-colors duration-200"
+                className="hover:text-github-blue transition-colors duration-200"
               >
                 {item.label}
               </button>
@@ -80,7 +79,7 @@ export default function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left hover:text-github-green transition-colors duration-200"
+                  className="text-left hover:text-github-blue transition-colors duration-200"
                 >
                   {item.label}
                 </button>
