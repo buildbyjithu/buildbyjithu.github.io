@@ -24,8 +24,8 @@ export default function Hero() {
             </h2>
             <p className="text-lg github-muted mb-6 max-w-lg">
               Seasoned Software Architect with 10+ years of full-stack expertise, specializing in scalable 
-              enterprise applications and cloud security. Proven early-stage engineer across multiple startups, 
-              with a passion for emerging AI technologies and continuous learning.
+              enterprise applications and cloud security. Proven 0-1 builder across multiple startups, 
+              transforming ideas into production systems with a passion for emerging AI technologies.
             </p>
             
             {/* Key Stats Highlight */}
