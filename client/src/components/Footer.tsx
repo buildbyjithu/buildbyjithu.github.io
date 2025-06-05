@@ -4,8 +4,8 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Github size={24} />,
-      href: "https://github.com/jithendranath",
-      hoverColor: "hover:text-github-green",
+      href: "https://github.com/buildbyjithu",
+      hoverColor: "hover:text-github-blue",
     },
     {
       icon: <Linkedin size={24} />,
@@ -29,8 +29,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <div className="text-2xl font-bold github-green mb-2 flex items-center">
-              <Github className="mr-2" size={24} />
+            <div className="text-2xl font-bold github-blue mb-2">
               Jithendranath Gupta Yenduri
             </div>
             <p className="github-muted">Software Architect & Cloud Security Expert</p>
@@ -53,7 +52,7 @@ export default function Footer() {
         
         <div className="border-t border-github-border mt-8 pt-8 text-center">
           <p className="github-muted flex items-center justify-center">
-            © 2024 Jithendranath Gupta Yenduri. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
+            © 2025 Jithendranath Gupta Yenduri. Built with <Heart className="mx-1 text-red-500" size={16} /> using React and modern web technologies.
           </p>
         </div>
       </div>

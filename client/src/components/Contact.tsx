@@ -112,8 +112,8 @@ export default function Contact() {
     {
       icon: <Github className="w-5 h-5" />,
       title: "GitHub",
-      value: "/jithendranath",
-      href: "https://github.com/jithendranath",
+      value: "/buildbyjithu",
+      href: "https://github.com/buildbyjithu",
       color: "bg-gray-600",
       hoverColor: "hover:text-white",
     },

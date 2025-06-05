@@ -51,15 +51,27 @@ export default function Hero() {
               <Button
                 variant="outline"
                 onClick={() => scrollToSection("contact")}
-                className="border-github-green text-github-green hover:bg-github-green hover:text-white px-8 py-3"
+                className="border-github-blue text-github-blue hover:bg-github-blue hover:text-white px-8 py-3"
               >
                 Get In Touch
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/src/assets/NewJithuresume_1749136814065.pdf';
+                  link.download = 'Jithendranath_Gupta_Yenduri_Resume.pdf';
+                  link.click();
+                }}
+                className="border-gray-600 text-gray-400 hover:bg-gray-600 hover:text-white px-8 py-3"
+              >
+                Download Resume
               </Button>
             </div>
             <div className="flex space-x-6 mt-8">
               <a 
-                href="https://github.com/jithendranath" 
-                className="github-muted hover:text-github-green transition-colors duration-200"
+                href="https://github.com/buildbyjithu" 
+                className="github-muted hover:text-github-blue transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
