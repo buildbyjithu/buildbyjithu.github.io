@@ -1,7 +1,11 @@
 import { Code, Server, Smartphone } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function About() {
+  // Track when about section is viewed
+  useSectionTracking('about', 'About Section');
+  
   const services = [
     {
       icon: <Code className="w-6 h-6" />,

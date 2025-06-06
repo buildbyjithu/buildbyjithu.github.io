@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function Skills() {
   const skillCategories = [

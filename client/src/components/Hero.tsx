@@ -77,6 +77,7 @@ export default function Hero() {
               <Button
                 variant="outline"
                 onClick={() => {
+                  trackResumeDownload();
                   const link = document.createElement('a');
                   link.href = resumePdf;
                   link.download = 'Jithendranath_Gupta_Yenduri_Resume.pdf';

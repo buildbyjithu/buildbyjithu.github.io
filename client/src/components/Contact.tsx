@@ -6,8 +6,13 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import { trackContactForm, trackButtonClick, trackExternalLink } from "@/lib/analytics";
+import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function Contact() {
+  // Track when contact section is viewed
+  useSectionTracking('contact', 'Contact Section');
+  
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   
@@ -49,6 +54,9 @@ export default function Contact() {
     const mailtoLink = `mailto:guptaa.pavan@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
+    
+    // Track contact form submission
+    trackContactForm('form_submitted');
     
     // Open email client
     window.location.href = mailtoLink;
