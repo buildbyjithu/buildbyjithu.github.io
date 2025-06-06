@@ -8,31 +8,39 @@ declare global {
 
 // Initialize Google Analytics
 export const initGA = () => {
-  const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
-
-  if (!measurementId) {
-    console.warn('Missing required Google Analytics key: VITE_GA_MEASUREMENT_ID');
+  // Check if gtag is already loaded (from HTML script)
+  if (typeof window !== 'undefined' && window.gtag) {
+    console.log('Google Analytics already initialized from HTML');
     return;
   }
 
-  // Add Google Analytics script to the head
-  const script1 = document.createElement('script');
-  script1.async = true;
-  script1.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-  document.head.appendChild(script1);
+  const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-0JNDVGD77C';
 
-  // Initialize gtag
-  const script2 = document.createElement('script');
-  script2.innerHTML = `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${measurementId}', {
-      page_title: document.title,
-      page_location: window.location.href
-    });
-  `;
-  document.head.appendChild(script2);
+  if (!measurementId) {
+    console.warn('Missing required Google Analytics key');
+    return;
+  }
+
+  // Add Google Analytics script to the head if not already present
+  if (!document.querySelector(`script[src*="gtag/js?id=${measurementId}"]`)) {
+    const script1 = document.createElement('script');
+    script1.async = true;
+    script1.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+    document.head.appendChild(script1);
+
+    // Initialize gtag
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${measurementId}', {
+        page_title: document.title,
+        page_location: window.location.href
+      });
+    `;
+    document.head.appendChild(script2);
+  }
 
   console.log('Google Analytics initialized with ID:', measurementId);
 };
@@ -41,8 +49,7 @@ export const initGA = () => {
 export const trackPageView = (url: string, title?: string) => {
   if (typeof window === 'undefined' || !window.gtag) return;
   
-  const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
-  if (!measurementId) return;
+  const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-0JNDVGD77C';
   
   window.gtag('config', measurementId, {
     page_path: url,
