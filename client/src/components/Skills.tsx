@@ -2,6 +2,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function Skills() {
+  // Track when skills section is viewed
+  useSectionTracking('skills', 'Skills Section');
+  
   const skillCategories = [
     {
       title: "Programming Languages",

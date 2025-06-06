@@ -3,8 +3,13 @@ import { Github, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { trackExternalLink, trackButtonClick } from "@/lib/analytics";
+import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function Projects() {
+  // Track when projects section is viewed
+  useSectionTracking('projects', 'Projects Section');
+  
   const [activeFilter, setActiveFilter] = useState("all");
 
   const projects = [
