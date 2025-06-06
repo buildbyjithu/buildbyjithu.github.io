@@ -2,12 +2,18 @@ import { Github, Linkedin, Twitter, Mail, Download, Calendar } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
 import resumePdf from "@/assets/Jithendranath_Gupta_Yenduri_Resume.pdf";
+import { trackButtonClick, trackExternalLink, trackResumeDownload } from "@/lib/analytics";
+import { useSectionTracking } from "@/hooks/use-analytics";
 
 export default function Hero() {
+  // Track when hero section is viewed
+  useSectionTracking('home', 'Hero Section');
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      trackButtonClick(`Navigate to ${sectionId}`, 'Hero');
     }
   };
 
@@ -53,6 +59,7 @@ export default function Hero() {
               <Button
                 variant="outline"
                 onClick={() => {
+                  trackExternalLink('https://calendly.com/guptaa-pavan/30min', 'Schedule Call');
                   window.open('https://calendly.com/guptaa-pavan/30min', '_blank');
                 }}
                 className="border-green-600 text-green-400 hover:bg-green-600 hover:text-white px-8 py-3"
