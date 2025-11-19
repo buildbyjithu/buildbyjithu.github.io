@@ -33,16 +33,15 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4" itemProp="name">About Me</h2>
           <p className="github-muted text-lg max-w-2xl mx-auto">
-            Software Architect with 11+ years of experience building analytics, endpoint and cloud security solutions
+            I’m a Software Architect based in Tampa, FL, exploring opportunities in the Bay Area. I specialize in full-stack development, cloud security, and building AI-powered systems. I’ve integrated LLMs into production workflows, built evaluation frameworks, and shipped features involving prompt engineering, chat pipelines, and automated task extraction.
+I'm known for taking complete end-to-end ownership of projects and am trusted by leadership to handle mission-critical initiatives. As an early engineer in multiple startups, I’ve built scalable systems, established full development pipelines, and worked through ambiguity with ease while driving clarity, execution, and results.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a Software Architect based in Fremont, CA, specializing in full-stack development and cloud security solutions. 
-              My journey began with a passion for building scalable systems and has led me to play key roles as an early engineer 
-              in multiple startups, setting up end-to-end software development pipelines from coding to deployment.
+              I'm a Software Architect based in Tampa, FL, currently exploring opportunities in the Bay Area. I specialize in full-stack development and cloud security solutions. My career has been shaped by a deep passion for building scalable, reliable systems, and I’ve served as an early engineer in multiple startups — where I built end-to-end software development pipelines, from architecture and coding to deployment and monitoring.
             </p>
             <p className="text-lg leading-relaxed">
               I focus on designing reusable components and middleware layers that handle millions of requests efficiently. 
